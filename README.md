@@ -6,6 +6,10 @@ Lunch roulette app built with React & Flask!
 
 Running `npm start` installs npm & pip dependencies, starts up the Python virtual env, and starts the app.
 
+After you start the app, go to [http://localhost:5000](http://localhost:5000).
+
+When you're done developing, type `deactivate` to leave the Python virtual environment. 
+
 ```shell
 # node v8
 # npm v5
@@ -26,4 +30,3 @@ pip install <DEPENDENCY>
 pip freeze > requirements.txt
 ```
 
-After you start the app, go to [http://localhost:5000](http://localhost:5000).
