@@ -7,7 +7,7 @@ import Details from './components/Details';
 function App() {
     return (
         <React.Fragment>
-            <Header />
+            <Header headerText={"Hello World"}/>
             <Details />
         </React.Fragment>
     );

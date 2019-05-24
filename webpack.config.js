@@ -17,5 +17,8 @@ module.exports = {
     output: {
         path: __dirname + "/static", // Bundle everything into `lets-lunch/static/`
         filename: "bundle.js" // Under a file called `lets-lunch/static/bundle.js`.
+    },
+    resolve: {
+        extensions: [".jsx", ".js", ".json"]
     }
 };

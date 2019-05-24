@@ -1,7 +1,8 @@
 import React from 'react'
 
-export default function Header() {
+export default function Header(props) {
+    const { headerText } = props;
     return (
-        <h1>Hello World!</h1>
+        <h1>{headerText}</h1>
     );
 }
