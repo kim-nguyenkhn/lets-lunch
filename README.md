@@ -4,16 +4,26 @@ Lunch roulette app built with React & Flask!
 
 ## Daily Development Routine 
 
-```shell
-#  Setup virtual environment, install dependencies, and start the app
-source run.sh
+Running `npm start` installs npm & pip dependencies, starts up the Python virtual env, and starts the app.
 
-# Install a new dependency
-pip install <DEPENDENCY>
-pip freeze > requirements.txt
+```shell
+# node v8
+# npm v5
+npm start
 
 # Leave the virtual environment
 deactivate
+```
+
+### Installing new dependencies
+
+```shell
+# Install a new npm dependency
+npm install <DEPENDENCY>
+
+# Install a new pip dependency
+pip install <DEPENDENCY>
+pip freeze > requirements.txt
 ```
 
 After you start the app, go to [http://localhost:5000](http://localhost:5000).

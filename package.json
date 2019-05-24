@@ -1,0 +1,34 @@
+{
+  "name": "lets-lunch",
+  "version": "1.0.0",
+  "description": "Lunch roulette app built with React & Flask!",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --mode development --watch",
+    "build": "webpack --mode development",
+    "prestart": "npm install",
+    "start": "npm run build && source start.sh"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kim-nguyenkhn/lets-lunch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kim-nguyenkhn/lets-lunch/issues"
+  },
+  "homepage": "https://github.com/kim-nguyenkhn/lets-lunch#readme"
+}
