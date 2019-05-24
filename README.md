@@ -29,4 +29,3 @@ npm install <DEPENDENCY>
 pip install <DEPENDENCY>
 pip freeze > requirements.txt
 ```
-
