@@ -2,7 +2,6 @@
   "name": "lets-lunch",
   "version": "1.0.0",
   "description": "Lunch roulette app built with React & Flask!",
-  "main": "index.js",
   "scripts": {
     "watch": "webpack --mode development --watch",
     "build": "webpack --mode development",
