@@ -1,11 +1,16 @@
 module.exports = {
-    entry: ["./src/index.jsx"], // Allow an entry point at `src/index.jsx`.
+    entry: ["./src/App.jsx"], // Allow an entry point at `src/App.jsx`.
     module: {
         rules: [
             {
                 test: /\.(js|jsx)$/, // For any `.js` or `.jsx` file,
                 exclude: /node_modules/, // Excluding the node_modules folder,
-                use: ["babel-loader"] // Use ES6/ES7 features.
+                use: {
+                    loader: "babel-loader", // Use ES6/ES7 features.
+                    options: {
+                        presets: ["@babel/preset-env", "@babel/preset-react"]
+                    }
+                }
             }
         ]
     },
