@@ -1,15 +1,12 @@
 # Let's Lunch App!
 
-Lunch roulette app built with React & Flask.
+Lunch roulette app built with React & Flask!
 
 ## Daily Development Routine 
 
 ```shell
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-
-python app.py 
+#  Setup virtual environment, install dependencies, and start the app
+source run.sh
 
 # Install a new dependency
 pip install <DEPENDENCY>
