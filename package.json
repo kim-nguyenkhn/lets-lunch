@@ -7,7 +7,7 @@
     "watch": "webpack --mode development --watch",
     "build": "webpack --mode development",
     "prestart": "npm install",
-    "start": "npm run build && source start.sh"
+    "start": "npm run build && source scripts/start.sh"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
